@@ -11,13 +11,13 @@ you can install it by running
 
 ### Using the script
 ```sentenceStylizer.py "string" -s "spaceChar" -c```
-- _String_ : the string to transform.
+- _string_ : the string to transform.
 - _-i "spaceChar"_ : Optional. The caracter you want to replace the space with.
 - _-c_ : Optional. If specified the result will be copied to the clipboard.
 
 # Example
-###Before :
+### Before :
 This is clearly the greatest project I ever found !
 
-###After :
+### After :
 ![discordScreen](https://img4.hostingpics.net/pics/637446SentenceStylee.png)
