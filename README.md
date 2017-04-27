@@ -1,7 +1,7 @@
 # SentenceStylizer
-Script en python qui transforme une chaîne de caractère en émojis.
+Script en python qui transforme une chaîne de caractère en émojis pour Discord
 
-A Python script that transorm a string into emojis.
+A Python script that transorm a string into Discord emojis.
 
 ## Usage
 ### Dependencies
