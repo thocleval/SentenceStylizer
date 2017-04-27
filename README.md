@@ -19,5 +19,8 @@ you can install it by running
 ### Before :
 This is clearly the greatest project I ever found !
 
+
+```sentenceStylizer.py "This is clearly the greatest project I ever found !" -s ":hotdog:" -c```
+
 ### After :
 ![discordScreen](https://img4.hostingpics.net/pics/637446SentenceStylee.png)
