@@ -1,12 +1,10 @@
-# Sentence Badassator
-
 #!/usr/bin/python3
 # This Python file uses the following encoding: utf-8
 
 import os, sys, getopt, pyperclip
 
 if len(sys.argv) == 1 :  
-	print ('sentenceBadassator.py "string" -i "spaceChar" -c (optional, to copy into the clipboard)')
+	print ('sentenceStylizer.py "string" -s "spaceChar" -c (optional, to copy into the clipboard)')
 	sys.exit(2)
 else:
 	phrase = sys.argv[1];
@@ -25,11 +23,11 @@ phraseStylee = ""
 try:
   opts, args = getopt.getopt(sys.argv[2:],"hs:c")
 except getopt.GetoptError:
-  print ('sentenceBadassator.py "string" -i "spaceChar" -c (optional, to copy into the clipboard)')
+  print ('sentenceBadassator.py "string" -s "spaceChar" -c (optional, to copy into the clipboard)')
   sys.exit(2)
 for opt, arg in opts:
   if opt == '-h':
-     print ('sentenceBadassator.py "string" -i "spaceChar" -c (optional, to copy into the clipboard)')
+     print ('sentenceBadassator.py "string" -s "spaceChar" -c (optional, to copy into the clipboard)')
      sys.exit()
   elif opt in ('-s'):
      espace = arg
@@ -71,5 +69,5 @@ for i in range(0,len(phrase)) :
         
 print(phraseStylee)
 if copie :
-	print("\nCopiÃ© dans le presse papier.")
+	print("\nCopié dans le presse papier.")
 	pyperclip.copy(phraseStylee)
